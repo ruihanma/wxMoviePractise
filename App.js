@@ -34,7 +34,7 @@ app.use(function* (next) {
         this.body = echostr + ""
     } else {
         // 不是从微信服务器传来的
-        this.body = "WRONG"
+        this.body = "YOU ARE NOT FROM WECHAT SERVER"
     }
 });
 
